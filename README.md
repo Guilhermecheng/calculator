@@ -16,5 +16,7 @@ Hope you guys enjoy it as much as I did making it! =)
 **Ctrl+M (or Command+M):** open or close the calculator (if installed as an extension);
 
 **When open**
+
 **C:** clear display
+
 **H:** history page
