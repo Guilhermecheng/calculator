@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div class="calculatorBody" id="calcBody">        
+
+        <svg id="button" height="510px" widtt="510px" viewBox="0 0 510 510">
+            <path  d="M267.75,12.75c-89.25,0-168.3,48.45-209.1,122.4L0,76.5v165.75h165.75
+                l-71.4-71.4c33.15-63.75,96.9-107.1,173.4-107.1C372.3,63.75,459,150.45,459,255s-86.7,191.25-191.25,191.25
+                c-84.15,0-153-53.55-181.05-127.5H33.15c28.05,102,122.4,178.5,234.6,178.5C402.9,497.25,510,387.6,510,255
+                C510,122.4,400.35,12.75,267.75,12.75z M229.5,140.25V270.3l119.85,71.4l20.4-33.15l-102-61.2v-107.1H229.5z"/>
+        </svg>
+
+        <div class="history-page" id="history">
+            <div class="historyBody">
+                <h3>History</h3>
+                <div class="history-track" id="history-track"></div>
+            </div>
+            
+        </div>
+        
+        <div class="calcMain" id="calcMain">
+            <div class="numbersDisplay" id="numbersDisplay"></div>
+            <div class="tecladoPrincipal" id="tecladoPrincipal">
+            
+            <p>+</p>
+            <p>-</p>
+            <p>&times;</p>
+            <p>&divide;</p>
+            
+            <p>7</p>
+            <p>8</p>
+            <p>9</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>0</p>
+            <p>.</p>
+            <p class="clear" id="clear">C</p>
+                    
+            <div class="equalButton" id="equalButton">=</div>
+            </div>
+        </div>
+    </div>
+      <script src="calculators.js"></script>
+      <script src="toggle.js"></script>
+</body>
+</html>
+  
