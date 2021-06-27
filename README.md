@@ -1,5 +1,7 @@
 # CALCULATOR
 
+![Alt text](https://github.com/Guilhermecheng/calculator/blob/main/calculator1.png?raw=true)
+
 #### Description:
 Calculator is a simple calculator built in HTML, CSS and Javascript, that's supposed to be an easy and fast way for you to do your calculations, without the need of you getting out from the web browser!
 
